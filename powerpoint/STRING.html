@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+    crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+
+</head>
+<body>
+    
+
+    
+    <input type="text" style="width:50%">
+
+    <button> clicar </button>
+    <button id="substituir"> --------- substituir </button>
+
+    <script>
+    
+    $("button").click(function(){
+       
+    
+        let x = $("input").val()
+
+        console.log(x);
+
+       
+    });
+
+    $("#substituir").click(function(){
+       
+    
+       let str = $("input").val()
+
+       console.log("=========" + str);
+
+       let res = str.replace(/ /g, ",");
+ 
+       console.log(res);
+
+      
+   });
+    
+    </script>
+
+
+
+
+
+</body>
+
+
+
+</html>

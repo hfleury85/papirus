@@ -1,0 +1,9 @@
+
+
+estrutura dos arquivos
+
+área > região anatômica  > grupo patológico > doença
+
+ex:
+
+ortopedia / quadril / vascular / necroseavascular quadril

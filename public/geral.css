@@ -1,0 +1,62 @@
+body{
+    background-color: #424242;
+    
+    }
+    
+    .texto{
+        background: rgb(13,71,161);
+    background: linear-gradient(90deg, rgba(13,71,161,1) 0%, rgba(25,118,210,1) 77%, rgba(21,101,192,1) 100%);
+    
+    color:white;
+    }
+    
+    .titulo{
+      
+      color:#1565c0 ;
+      
+    }
+
+
+
+    /* /////////////////////////////// NAVBAR */
+
+    nav
+    {
+      
+      background: rgb(13,71,161);
+    background: linear-gradient(90deg, rgba(13,71,161,1) 0%, rgba(25,118,210,1) 77%, rgba(21,101,192,1) 100%);
+    
+    }
+
+     a.nav-link, a.navbar-brand
+    {
+
+      color: white!important;
+
+    }
+
+    /* //////////////////////////// FOOTER */
+
+
+    .footer ul{
+
+        font-weight: 1000;
+    }
+
+    .footer a{
+
+      color: cornsilk;
+      font-weight: 500;
+
+    }
+
+
+
+    /* ///////////////////////////  navbar esquerdo / regiao de login */
+
+    nav .usuario  {
+
+      border: 1px solid white;
+      color: white;
+
+    }
