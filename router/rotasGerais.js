@@ -13,7 +13,7 @@ router.use(function timeLog(req, res, next) {
 
 router.get('/', function (req, res) {
     // res.render("necrose-avascular-do-quadril")
-    res.send("inicio")
+    res.redirect("/lista-de-artigos")
   });
   
 router.get('/sobre', function (req, res) {

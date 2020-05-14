@@ -21,9 +21,7 @@ router.get('/abdomen-figado-hemangioma', function (req, res) {
   res.render("./abdomen/figado-hemangioma.ejs")
 });
 
-// router.get('/h', function (req, res) {
-//   res.render("./abdomen/h.ejs")
-// });
+
 
 
 
@@ -39,5 +37,8 @@ router.get('/abdomen-figado-hemangioma', function (req, res) {
     res.render("./abdomen/rim-angiomiolipoma.ejs")
   });
 
+  router.get('/rim-carcinoma-celulas-claras', function (req, res) {
+    res.render("./abdomen/rim-carcinoma-celulas-claras.ejs")
+  });
   
   module.exports = router;
