@@ -1,4 +1,9 @@
-lightbox.option({
+
+
+$( document ).ready(function() {
+  // console.log( "ready!" );
+
+  lightbox.option({
     'resizeDuration': 200,
     'wrapAround': true,
     "fadeDuration":30,
@@ -6,3 +11,7 @@ lightbox.option({
     'albumLabel': 'Bild %1 von %2',
     resizeDuration:0
   })
+
+  M.AutoInit();
+
+});

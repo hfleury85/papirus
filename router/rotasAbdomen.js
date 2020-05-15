@@ -40,5 +40,18 @@ router.get('/abdomen-figado-hemangioma', function (req, res) {
   router.get('/rim-carcinoma-celulas-claras', function (req, res) {
     res.render("./abdomen/rim-carcinoma-celulas-claras.ejs")
   });
+
+
+////////////////////////////////////////////
+
+//// COLON
+
+///////////////////////////////////////////
   
+router.get('/colon-adenocarcinoma-de-colon', function (req, res) {
+  res.render("./abdomen/colon-adenocarcinoma-de-colon.ejs")
+});
+
+
+
   module.exports = router;
