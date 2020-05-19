@@ -54,4 +54,18 @@ router.get('/colon-adenocarcinoma-de-colon', function (req, res) {
 
 
 
+
+
+
+////////////////////////////////////////////
+
+//// UTERO E COLO UTERINO
+
+///////////////////////////////////////////
+
+router.get('/utero-adenomiose', function (req, res) {
+  res.render("./abdomen/utero-adenomiose.ejs")
+});
+
+
   module.exports = router;
