@@ -44,6 +44,18 @@ router.get('/abdomen-figado-hemangioma', function (req, res) {
 
 ////////////////////////////////////////////
 
+//// PANCREAS
+
+///////////////////////////////////////////
+  
+router.get('/pancreas-pancreatite-aguda', function (req, res) {
+  res.render("./abdomen/pancreas-pancreatite-aguda.ejs")
+});
+  
+
+
+////////////////////////////////////////////
+
 //// COLON
 
 ///////////////////////////////////////////
@@ -66,6 +78,7 @@ router.get('/colon-adenocarcinoma-de-colon', function (req, res) {
 router.get('/utero-adenomiose', function (req, res) {
   res.render("./abdomen/utero-adenomiose.ejs")
 });
+
 
 
   module.exports = router;
