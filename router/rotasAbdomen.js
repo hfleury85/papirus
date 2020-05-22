@@ -22,7 +22,15 @@ router.get('/abdomen-figado-hemangioma', function (req, res) {
 });
 
 
+////////////////////////////////////////////
 
+//// ADRENAL
+
+///////////////////////////////////////////
+
+router.get('/adrenal-adenoma-adrenal', function (req, res) {
+  res.render("./abdomen/adrenal-adenoma-adrenal.ejs")
+});
 
 
 
@@ -33,7 +41,7 @@ router.get('/abdomen-figado-hemangioma', function (req, res) {
 
 ///////////////////////////////////////////
 
-  router.get('/abdomen-rim-angiomiolipoma', function (req, res) {
+  router.get('/rim-angiomiolipoma', function (req, res) {
     res.render("./abdomen/rim-angiomiolipoma.ejs")
   });
 
