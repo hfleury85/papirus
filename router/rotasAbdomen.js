@@ -32,6 +32,10 @@ router.get('/adrenal-adenoma-adrenal', function (req, res) {
   res.render("./abdomen/adrenal-adenoma-adrenal.ejs")
 });
 
+router.get('/adrenal-hemorragia-adrenal', function (req, res) {
+  res.render("./abdomen/adrenal-hemorragia-adrenal.ejs")
+});
+
 
 
 

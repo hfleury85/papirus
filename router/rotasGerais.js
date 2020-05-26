@@ -16,8 +16,12 @@ router.get('/', function (req, res) {
     res.redirect("/lista-de-artigos")
   });
   
-router.get('/sobre', function (req, res) {
-    res.render("sobre");
+// router.get('/sobre', function (req, res) {
+//     res.render("sobre");
+//   });
+
+  router.get('/sobre-1', function (req, res) {
+    res.render("sobre1");
   });
 
   router.get('/lista-de-artigos', function (req, res) {
